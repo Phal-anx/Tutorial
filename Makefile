@@ -14,7 +14,7 @@ LDFLAGS +=
 SOURCES += $(wildcard src/*.cpp)
 
 # Add files to the ZIP package when running `make dist`
-DISTRIBUTABLES += $(wildcard LICENSE*) res
+DISTRIBUTABLES += $(wildcard LICENSE* plugin.*) res
 
 # Include the VCV plugin Makefile framework
 include ../../plugin.mk
